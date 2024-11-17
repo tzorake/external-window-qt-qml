@@ -1,0 +1,42 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "web",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "repository": "",
+  "keywords": [
+    "web",
+    "electron"
+  ],
+  "author": "tzorake",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.2",
+    "electron-packager": "^17.1.2"
+  },
+  "build": {
+    "appId": "com.example.web",
+    "productName": "web",
+    "files": [
+      "main.js",
+      "package.json",
+<? FILES ?>
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}

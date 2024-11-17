@@ -1,0 +1,7 @@
+"./project/app.js",
+"./project/index.html",
+"./project/style.css",
+"./project/img/hero-bg.png",
+"./project/img/img-1.png",
+"./project/img/img-2.png",
+"./project/img/Design.jpg",
